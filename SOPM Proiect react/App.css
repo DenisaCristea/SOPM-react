@@ -1,0 +1,45 @@
+body {
+  background-color: #87CEEB; /* Albastru deschis pentru fundalul paginii */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 520px;
+  min-height: 655px;
+  background: #8aa2d3;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs {
+  cursor: pointer;
+  padding: 10px 20px; /* Ajustează dimensiunea spațiilor în jurul textului */
+  font-size: 27px;
+  display: flex;
+  flex-direction: column; /* Afișează tab-urile una sub alta */
+  align-items: center;
+  gap: 25px; /* Spațiu între elementele din container */
+  margin-top: 20%; /* Adaugă un spațiu între titlu și tab-uri */
+}
+
+.tab {
+  /* Stilizează conform nevoilor tale */
+  cursor: pointer;
+  padding: 5px 10px;
+}
